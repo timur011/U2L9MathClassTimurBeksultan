@@ -12,6 +12,7 @@ public class RightTriangle {
         double s1sq = Math.pow(base, 2);
         double s2sq = Math.pow(height, 2);
         double hypotenuseL = Math.sqrt(s1sq + s2sq);
+        return hypotenuseL;
 
 
     }
